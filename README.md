@@ -22,4 +22,4 @@ You need to share the incrementing log index between the two threads, similar to
 
 When you use shared memory (a shared object) it is important to use mutex locking, such that the two threads don't write/increment the log index at the same time; as well as to prevent one thread reading before the other has completed writing (updating) the index.
 
-
+NOTE: copy right reserved, please do not use my code for your personal course assignments.
